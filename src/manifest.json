@@ -1,0 +1,44 @@
+{
+  "manifest_version": 1,
+  "version": 1,
+  "type": "APP",
+  "desktop": {
+    "js": [
+      "js/desktop.js"
+    ]
+  },
+  "mobile": {
+    "js": [
+      "js/kuc.min.js",
+      "js/mobile.js"
+    ],
+    "css": [
+      "css/51-modern-default.css"
+    ]
+  },
+  "icon": "image/icon.png",
+  "config": {
+    "html": "html/config.html",
+    "js": [
+      "js/kuc.min.js",
+      "js/config.js"
+    ],
+    "css": [
+      "css/51-modern-default.css",
+      "css/config.css"
+    ],
+    "required_params": []
+  },
+  "homepage_url": {
+    "ja": "https://yamauchi.win",
+    "en": "https://yamauchi.win"
+  },
+  "name": {
+    "ja": "kintone UI Component デモ",
+    "en": "kintone UI Component Demo Plugin"
+  },
+  "description": {
+    "ja": "様々なkintone UI Componentを体験できるデモプラグイン",
+    "en": "Demo plugin to experience various kintone UI Components"
+  }
+}

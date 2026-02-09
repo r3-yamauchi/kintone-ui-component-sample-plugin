@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>kintone UI Component デモ</title>
+</head>
+<body>
+  <div class="plugin-config">
+    <main class="plugin-config__main">
+      <section class="plugin-config__section">
+        <div class="plugin-config__description-container">
+          <h2 class="plugin-config__title">kintone UI Component デモ</h2>
+          <p class="plugin-config__description">
+            このプラグインでは、様々なkintone UI Componentをインタラクティブに体験できます。<br>
+            各コンポーネントを操作して、動作を確認してみてください。
+          </p>
+        </div>
+
+        <!-- Attachment コンポーネント -->
+        <div class="demo-section">
+          <h3 class="demo-section__title">
+            Attachment
+            <a href="https://ui-component.kintone.dev/ja/docs/components/desktop/attachment" target="_blank" class="doc-link">📖 ドキュメント</a>
+          </h3>
+          <p class="demo-section__description">ファイル添付コンポーネント</p>
+          <div class="demo-section__content" id="attachment-demo">
+            <!-- Attachment がここに追加されます -->
+          </div>
+          <div class="demo-section__output" id="attachment-output"></div>
+        </div>
+
+        <!-- Button コンポーネント -->
+        <div class="demo-section">
+          <h3 class="demo-section__title">
+            Button
+            <a href="https://ui-component.kintone.dev/ja/docs/components/desktop/button" target="_blank" class="doc-link">📖 ドキュメント</a>
+          </h3>
+          <p class="demo-section__description">ボタンコンポーネント - クリックイベントを処理できます</p>
+          <div class="demo-section__content" id="button-demo">
+            <!-- Button がここに追加されます -->
+          </div>
+          <div class="demo-section__output" id="button-output"></div>
+        </div>
+
+        <!-- Checkbox コンポーネント -->
+        <div class="demo-section">
+          <h3 class="demo-section__title">
+            Checkbox
+            <a href="https://ui-component.kintone.dev/ja/docs/components/desktop/checkbox" target="_blank" class="doc-link">📖 ドキュメント</a>
+          </h3>
+          <p class="demo-section__description">チェックボックスコンポーネント - 複数選択可能</p>
+          <div class="demo-section__content" id="checkbox-demo">
+            <!-- Checkbox がここに追加されます -->
+          </div>
+          <div class="demo-section__output" id="checkbox-output"></div>
+        </div>
+
+        <!-- Combobox コンポーネント -->
+        <div class="demo-section">
+          <h3 class="demo-section__title">
+            Combobox
+            <a href="https://ui-component.kintone.dev/ja/docs/components/desktop/combobox" target="_blank" class="doc-link">📖 ドキュメント</a>
+          </h3>
+          <p class="demo-section__description">コンボボックスコンポーネント - 検索可能なドロップダウン</p>
+          <div class="demo-section__content" id="combobox-demo">
+            <!-- Combobox がここに追加されます -->
+          </div>
+          <div class="demo-section__output" id="combobox-output"></div>
+        </div>
+
+        <!-- DatePicker コンポーネント -->
+        <div class="demo-section">
+          <h3 class="demo-section__title">
+            DatePicker
+            <a href="https://ui-component.kintone.dev/ja/docs/components/desktop/datepicker" target="_blank" class="doc-link">📖 ドキュメント</a>
+          </h3>
+          <p class="demo-section__description">日付選択コンポーネント</p>
+          <div class="demo-section__content" id="datepicker-demo">
+            <!-- DatePicker がここに追加されます -->
+          </div>
+          <div class="demo-section__output" id="datepicker-output"></div>
+        </div>
+
+        <!-- DateTimePicker コンポーネント -->
+        <div class="demo-section">
+          <h3 class="demo-section__title">
+            DateTimePicker
+            <a href="https://ui-component.kintone.dev/ja/docs/components/desktop/datetime-picker" target="_blank" class="doc-link">📖 ドキュメント</a>
+          </h3>
+          <p class="demo-section__description">日付時刻選択コンポーネント</p>
+          <div class="demo-section__content" id="datetimepicker-demo">
+            <!-- DateTimePicker がここに追加されます -->
+          </div>
+          <div class="demo-section__output" id="datetimepicker-output"></div>
+        </div>
+
+        <!-- Dropdown コンポーネント -->
+        <div class="demo-section">
+          <h3 class="demo-section__title">
+            Dropdown
+            <a href="https://ui-component.kintone.dev/ja/docs/components/desktop/dropdown" target="_blank" class="doc-link">📖 ドキュメント</a>
+          </h3>
+          <p class="demo-section__description">ドロップダウンコンポーネント - 単一選択</p>
+          <div class="demo-section__content" id="dropdown-demo">
+            <!-- Dropdown がここに追加されます -->
+          </div>
+          <div class="demo-section__output" id="dropdown-output"></div>
+        </div>
+
+        <!-- FieldGroup コンポーネント -->
+        <div class="demo-section">
+          <h3 class="demo-section__title">
+            FieldGroup
+            <a href="https://ui-component.kintone.dev/ja/docs/components/desktop/fieldgroup" target="_blank" class="doc-link">📖 ドキュメント</a>
+          </h3>
+          <p class="demo-section__description">フィールドグループコンポーネント - 複数のフィールドをグループ化</p>
+          <div class="demo-section__content" id="fieldgroup-demo">
+            <!-- FieldGroup がここに追加されます -->
+          </div>
+        </div>
+
+        <!-- MultiChoice コンポーネント -->
+        <div class="demo-section">
+          <h3 class="demo-section__title">
+            MultiChoice
+            <a href="https://ui-component.kintone.dev/ja/docs/components/desktop/multichoice" target="_blank" class="doc-link">📖 ドキュメント</a>
+          </h3>
+          <p class="demo-section__description">複数選択コンポーネント - チップ形式で複数選択</p>
+          <div class="demo-section__content" id="multichoice-demo">
+            <!-- MultiChoice がここに追加されます -->
+          </div>
+          <div class="demo-section__output" id="multichoice-output"></div>
+        </div>
+
+        <!-- RadioButton コンポーネント -->
+        <div class="demo-section">
+          <h3 class="demo-section__title">
+            RadioButton
+            <a href="https://ui-component.kintone.dev/ja/docs/components/desktop/radiobutton" target="_blank" class="doc-link">📖 ドキュメント</a>
+          </h3>
+          <p class="demo-section__description">ラジオボタンコンポーネント - 単一選択</p>
+          <div class="demo-section__content" id="radiobutton-demo">
+            <!-- RadioButton がここに追加されます -->
+          </div>
+          <div class="demo-section__output" id="radiobutton-output"></div>
+        </div>
+
+        <!-- ReadOnlyTable コンポーネント -->
+        <div class="demo-section">
+          <h3 class="demo-section__title">
+            ReadOnlyTable
+            <a href="https://ui-component.kintone.dev/ja/docs/components/desktop/readonlytable" target="_blank" class="doc-link">📖 ドキュメント</a>
+          </h3>
+          <p class="demo-section__description">読み取り専用テーブルコンポーネント</p>
+          <div class="demo-section__content" id="readonly-table-demo">
+            <!-- ReadOnlyTable がここに追加されます -->
+          </div>
+        </div>
+
+        <!-- Switch コンポーネント -->
+        <div class="demo-section">
+          <h3 class="demo-section__title">
+            Switch
+            <a href="https://ui-component.kintone.dev/ja/docs/components/desktop/switch" target="_blank" class="doc-link">📖 ドキュメント</a>
+          </h3>
+          <p class="demo-section__description">スイッチコンポーネント - オン/オフを切り替え</p>
+          <div class="demo-section__content" id="switch-demo">
+            <!-- Switch がここに追加されます -->
+          </div>
+          <div class="demo-section__output" id="switch-output"></div>
+        </div>
+
+        <!-- Table コンポーネント -->
+        <div class="demo-section">
+          <h3 class="demo-section__title">
+            Table
+            <a href="https://ui-component.kintone.dev/ja/docs/components/desktop/table" target="_blank" class="doc-link">📖 ドキュメント</a>
+          </h3>
+          <p class="demo-section__description">テーブルコンポーネント - 行の追加/削除が可能</p>
+          <div class="demo-section__content" id="table-demo">
+            <!-- Table がここに追加されます -->
+          </div>
+          <div class="demo-section__output" id="table-output"></div>
+        </div>
+
+        <!-- Tabs コンポーネント -->
+        <div class="demo-section">
+          <h3 class="demo-section__title">
+            Tabs
+            <a href="https://ui-component.kintone.dev/ja/docs/components/desktop/tabs" target="_blank" class="doc-link">📖 ドキュメント</a>
+          </h3>
+          <p class="demo-section__description">タブコンポーネント - コンテンツをタブで切り替え</p>
+          <div class="demo-section__content" id="tabs-demo">
+            <!-- Tabs がここに追加されます -->
+          </div>
+          <div class="demo-section__output" id="tabs-output"></div>
+        </div>
+
+        <!-- Text コンポーネント -->
+        <div class="demo-section">
+          <h3 class="demo-section__title">
+            Text
+            <a href="https://ui-component.kintone.dev/ja/docs/components/desktop/text" target="_blank" class="doc-link">📖 ドキュメント</a>
+          </h3>
+          <p class="demo-section__description">テキスト入力コンポーネント</p>
+          <div class="demo-section__content" id="text-demo">
+            <!-- Text がここに追加されます -->
+          </div>
+          <div class="demo-section__output" id="text-output"></div>
+        </div>
+
+        <!-- TextArea コンポーネント -->
+        <div class="demo-section">
+          <h3 class="demo-section__title">
+            TextArea
+            <a href="https://ui-component.kintone.dev/ja/docs/components/desktop/textarea" target="_blank" class="doc-link">📖 ドキュメント</a>
+          </h3>
+          <p class="demo-section__description">複数行テキスト入力コンポーネント</p>
+          <div class="demo-section__content" id="textarea-demo">
+            <!-- TextArea がここに追加されます -->
+          </div>
+          <div class="demo-section__output" id="textarea-output"></div>
+        </div>
+
+        <!-- TimePicker コンポーネント -->
+        <div class="demo-section">
+          <h3 class="demo-section__title">
+            TimePicker
+            <a href="https://ui-component.kintone.dev/ja/docs/components/desktop/timepicker" target="_blank" class="doc-link">📖 ドキュメント</a>
+          </h3>
+          <p class="demo-section__description">時刻選択コンポーネント</p>
+          <div class="demo-section__content" id="timepicker-demo">
+            <!-- TimePicker がここに追加されます -->
+          </div>
+          <div class="demo-section__output" id="timepicker-output"></div>
+        </div>
+
+        <!-- Tooltip コンポーネント -->
+        <div class="demo-section">
+          <h3 class="demo-section__title">
+            Tooltip
+            <a href="https://ui-component.kintone.dev/ja/docs/components/desktop/tooltip" target="_blank" class="doc-link">📖 ドキュメント</a>
+          </h3>
+          <p class="demo-section__description">ツールチップコンポーネント - マウスオーバーで情報を表示</p>
+          <div class="demo-section__content" id="tooltip-demo">
+            <!-- Tooltip がここに追加されます -->
+          </div>
+        </div>
+
+        <!-- UserOrgGroupSelect コンポーネント -->
+        <div class="demo-section">
+          <h3 class="demo-section__title">
+            UserOrgGroupSelect
+            <a href="https://ui-component.kintone.dev/ja/docs/components/desktop/userorggroupselect" target="_blank" class="doc-link">📖 ドキュメント</a>
+          </h3>
+          <p class="demo-section__description">ユーザー/組織/グループ選択コンポーネント</p>
+          <div class="demo-section__content" id="user-org-group-select-demo">
+            <!-- UserOrgGroupSelect がここに追加されます -->
+          </div>
+          <div class="demo-section__output" id="user-org-group-select-output"></div>
+        </div>
+
+        <div class="plugin-config__note">
+          <strong>注意:</strong> これらのコンポーネントはkintone UI Component v1を使用しています。<br>
+          詳細は <a href="https://ui-component.kintone.dev/ja/" target="_blank">kintone UI Component 公式ドキュメント</a> をご確認ください。
+        </div>
+      </section>
+    </main>
+
+    <footer class="plugin-config__footer">
+      <button type="button" id="close-button" class="plugin-config__button plugin-config__button--primary">
+        閉じる
+      </button>
+    </footer>
+  </div>
+</body>
+</html>
